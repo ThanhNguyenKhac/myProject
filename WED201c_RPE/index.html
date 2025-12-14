@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Minor Fashion</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!--Embed your CSS here-->
+	<link rel="stylesheet" href="css/styleindex.css">
+
+
+</head>
+
+<body>
+
+	<div class="container"> <!--div contains all the web page content-->
+
+		<div class="header"> <!--div contains header content-->
+
+			<div class="header_img">
+				<img src="images/Logo.png" alt="Minor Fashion" />
+			</div>
+
+			<div class="header_info">
+
+				<div class="form-group has-feedback has-search">
+					<span class="glyphicon glyphicon-search form-control-feedback"></span>
+					<input type="text" class="form-control sizesearch" placeholder="Search">
+				</div>
+			</div>
+
+
+		</div> <!-- finish div contains header content-->
+
+		<!-------------------------------------------------------------------------------------------------------------->
+
+		<div class="content_container"> <!--div contains detailed content of the page-->
+
+			<div class="content_left"> <!--div containing detailed content is on the left-->
+
+				<div class="check_box">
+
+					<h4 class="head_check_box"> <span><img src="images/Category.PNG" /></span> Product categories</h4>
+
+					<p><input type="radio" name="cate" checked /> Dress</p>
+					<p><input type="radio" name="cate" /> Skirt</p>
+					<p><input type="radio" name="cate" /> Shirt</p>
+					<p><input type="radio" name="cate" /> Overalls</p>
+
+				</div>
+
+				<div class="check_box">
+
+					<h4 class="head_check_box"> <span><img src="images/Inventory.png" /></span> Inventory</h4>
+
+					<p><input type="radio" name="Inventory" checked /> All </p>
+					<p><input type="radio" name="Inventory" /> Inventory below standard</p>
+					<p><input type="radio" name="Inventory" /> Inventory above standard</p>
+					<p><input type="radio" name="Inventory" /> Out of stock</p>
+
+				</div>
+
+
+				<div class="check_box">
+
+					<h4 class="head_check_box"> <span><img src="images/color.png" /></span> Color</h4>
+
+					<p><input type="checkbox" name="white" checked /> White </p>
+					<p><input type="checkbox" name="Blue" /> Blue </p>
+					<p><input type="checkbox" name="Pink" /> Pink</p>
+					<p><input type="checkbox" name="Silver" /> Silver</p>
+
+				</div>
+
+
+				<div class="check_box">
+
+					<h4 class="head_check_box"> <span><img src="images/brand.png" /></span> Brand</h4>
+
+					<p><input type="radio" name="t1" checked /> Lamer</p>
+					<p><input type="radio" name="t1" /> Vienne Tran</p>
+					<p><input type="radio" name="t1" /> Fendi</p>
+					<p><input type="radio" name="t1" /> Levi's</p>
+
+				</div>
+
+			</div> <!-- Finish div containing detailed content is on the left-->
+
+			<!-------------------------------------------------------------------------------------------------------------->
+
+			<div class="content_right"> <!-- div containing detailed content is on the right -->
+
+				<div class="content_btn"> <!-- div contains buttons-->
+
+					<div class="btn">
+
+						<div class="btn_style btn_01">
+							<button type="button">Invoices</button>
+						</div>
+
+						<div class="btn_style btn_02">
+							<button type="button">Import slip</button>
+						</div>
+
+						<div class="btn_style btn_03">
+							<button type="button">Statistics</button>
+						</div>
+
+					</div>
+
+				</div> <!-- Finish div contains buttons-->
+
+				<!-------------------------------------------------------------------------------------------------------------->
+
+				<div class="blue_title"> <!-- div contains title-->
+
+					<h2>YOUR INVOICE</h2>
+
+				</div> <!-- Finish div contains title-->
+				<div class="information">
+					<div class="invoice_info"><!-- div contains Invoice information-->
+
+						<form action="#" method="post">
+
+							<div class="form-group">
+								<label for="Invoice number">Invoice number</label>
+								<input class="form-control input-lg" id="Invoice number" type="text" />
+							</div>
+
+							<div class="form-group">
+								<label for="Invoice date">Invoice date</label>
+								<input class="form-control input-lg" id="Invoice_date" type="date" />
+							</div>
+
+							<div class="form-group">
+								<label for="Total">Total</label>
+								<input class="form-control input-lg" id="Total" type="text" />
+							</div>
+
+							<div class="form-group">
+								<label for="Staff">Staff</label>
+								<input class="form-control input-lg" id="Staff" type="text" />
+							</div>
+
+						</form>
+
+					</div> <!-- Finsh div contains Invoice information-->
+
+
+					<!-------------------------------------------------------------------------------------------------------------->
+
+					<div class="customer_info"> <!-- div contains Customer information-->
+
+						<form action="#" method="post">
+
+							<div class="form-group">
+								<label for="FullName">FullName</label>
+								<input class="form-control input-lg" id="FullName" type="text" />
+							</div>
+
+							<div class="form-group">
+								<label for="Address">Address</label>
+								<input class="form-control input-lg" id="Address" type="text" />
+							</div>
+
+							<div class="form-group">
+								<label for="Phone">Phone</label>
+								<input class="form-control input-lg" id="Phone" type="text" />
+							</div>
+
+							<div class="form-group">
+								<label for="Email">Email</label>
+								<input class="form-control input-lg" id="Email" type="email" />
+							</div>
+
+						</form>
+
+					</div> <!-- Finish div contains Customer information-->
+				</div>
+
+
+				<!-------------------------------------------------------------------------------------------------------------->
+
+				<div class="table_cotainer"> <!-- div contains Invoice Details information-->
+
+					<h3>Invoice Detail</h3>
+
+					<table>
+
+						<thead>
+							<tr>
+								<th>Product Name</th>
+								<th class="th_center">Quantity</th>
+								<th class="th_center">Price</th>
+							</tr>
+						</thead>
+
+						<tbody>
+
+							<tr>
+								<td>Chiffon bow tie shirt - L61H25H023</td>
+								<td class="td_center"> 2</td>
+								<td class="td_center"> $21 </td>
+							</tr>
+
+							<tr>
+								<td>Straight Leg Pants - L64T22Q016</td>
+								<td class="td_center"> 3</td>
+								<td class="td_center"> $10</td>
+							</tr>
+
+							<tr>
+								<td>Pleated flared skirt - L62L25H004</td>
+								<td class="td_center"> 2</td>
+								<td class="td_center"> $32</td>
+							</tr>
+
+						</tbody>
+
+					</table>
+
+				</div> <!-- Finish div contains Invoice Details information-->
+
+				<!-------------------------------------------------------------------------------------------------------------->
+
+				<div class="blue_title"> <!-- div contains title-->
+
+					<h2> Best Seller</h2>
+
+				</div> <!-- Finish div contains title-->
+				<div class="sale_container">
+					<div class="sale_img"> <!-- div contains image-->
+
+						<img src="images/h1.jpg" />
+						<h4>$30</h4>
+
+					</div> <!-- Finish div contains image-->
+
+					<div class="sale_img"> <!-- div contains image-->
+
+						<img src="images/h2.jpg" />
+						<h4>$35</h4>
+
+					</div> <!-- Finish div contains image-->
+
+					<div class="sale_img"> <!-- div contains image-->
+
+						<img src="images/h3.jpg" />
+						<h4>$15</h4>
+
+					</div> <!-- Finish div contains image-->
+
+					<div class="sale_img"> <!-- div contains image-->
+
+						<img src="images/h4.jpg" />
+						<h4>$25</h4>
+
+					</div> <!-- Finish div contains image-->
+				</div>
+
+
+			</div> <!-- Finish div containing detailed content is on the right-->
+
+		</div> <!--Finish div contains detailed content of the page-->
+
+		<!-------------------------------------------------------------------------------------------------------------->
+
+		<div class="footer"> <!--div contains Footer content-->
+
+			<div class="footer_info">
+
+				<p>Email : Minorfashion.com</p>
+				<p>Address: 150 Le Duc Tho, Go Vap District, HCMC</p>
+				<h5>&copy; Copyright 2025. Minorfashion.vn</h5>
+			</div>
+
+		</div> <!-- finish div contains Footer content-->
+
+	</div> <!--Finish div contains detailed content of the page-->
+
+
+	<script src="js/Jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
